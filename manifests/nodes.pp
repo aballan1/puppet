@@ -3,12 +3,12 @@ node default {
 	include common
 }
 
-node 'tirisfal.home'{
+node 'tirisfal.home' {
 	include git
 	include common
 }
 
-node 'hellscream.home'{
+node 'hellscream.home' {
 	include git
 	include common
 	include postgresql
