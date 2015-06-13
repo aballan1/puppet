@@ -3,7 +3,7 @@ node default {
 	include common
 }
 
-node 'Tirisfal'{
+node 'tirisfal.home'{
 	include git
 	include common
 }
