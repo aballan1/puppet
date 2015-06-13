@@ -1,5 +1,5 @@
 class postgresql {
-	package { 'postgresql':
+	package { 'postgresql-server':
 		ensure => latest,
 	}	
 	service { 'postgresql':
