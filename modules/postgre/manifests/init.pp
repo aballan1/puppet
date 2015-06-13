@@ -5,6 +5,6 @@ class postgresql {
 	service { 'postgresql':
 		ensure => running,
 		enable => true,
-		require => Package['postgresql'],
+		require => Package['postgresql-server'],
 	}
 }
